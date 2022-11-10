@@ -11,9 +11,9 @@ int main(){
     float AreaQuadrato = a * a;
     float AreaRettangolo = a * b;
     float  AreaTrapezio = ((a + a) * c) / 2;
-    cout << AreaTriangolo << endl;
-    cout << AreaQuadrato << endl;
-    cout << AreaRettangolo << endl;
-    cout << AreaTrapezio << endl;
+    cout << (a * b) / 2 << endl;
+    cout << a * a << endl;
+    cout << a * b << endl;
+    cout << ((a + a) * c) / 2 << endl;
     return 0;
 }
