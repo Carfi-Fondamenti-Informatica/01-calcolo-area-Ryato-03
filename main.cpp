@@ -2,9 +2,9 @@
 using namespace std;
 
 int main(){
-//Qui vanno definite le variabili
+    //Qui vanno definite le variabili
     float a, b, c;
-//    cout << "Inserire i dati per completare l'operazione:" << endl;
+    cout << "Inserire i dati per completare l'operazione:" << endl;
     cin >> a >> b >> c;
 
 //Qui va scritto il codice per eseguire i calcoli richiesti
@@ -12,7 +12,9 @@ int main(){
     float AreaQuadrato = a * a;
     float AreaRettangolo = a * b;
     float  AreaTrapezio = ((a + a) * c) / 2;
-    cout << AreaTriangolo << endl << AreaQuadrato << endl;
-    cout << AreaRettangolo << endl << AreaTrapezio << endl;
+    cout << AreaTriangolo << endl;
+    cout << AreaQuadrato << endl;
+    cout << AreaRettangolo << endl;
+    cout << AreaTrapezio << endl;
     return 0;
 }
