@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 //Qui vanno definite le variabili
-    int a, b, c;
+    float a, b, c;
     cout << "Inserire i dati per completare l'operazione:" << endl;
     cin >> a >> b >> c;
 
