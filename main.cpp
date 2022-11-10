@@ -4,7 +4,6 @@ using namespace std;
 int main(){
     //Qui vanno definite le variabili
     float a, b, c;
-    cout << "Inserire i dati per completare l'operazione:" << endl;
     cin >> a >> b >> c;
 
 //Qui va scritto il codice per eseguire i calcoli richiesti
